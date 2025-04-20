@@ -1,0 +1,19 @@
+.textbox {
+    width: 70vw;
+    height: auto;
+    color: #2D2C2C;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    border: #2D2C2C 2px solid;
+}
+
+.textbox_text {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
