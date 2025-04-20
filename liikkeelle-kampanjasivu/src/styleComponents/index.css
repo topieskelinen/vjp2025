@@ -10,6 +10,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -36,8 +37,22 @@ img {
   margin-bottom: -30px;
 }
 
-
 .footer {
   width: 100%;
 }
 
+.video {
+  width: 70vw;
+  height: 40vw;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px ;
+  font-size: 40px;
+}
+
+Header h1 {
+  margin-bottom: -10px;
+}
