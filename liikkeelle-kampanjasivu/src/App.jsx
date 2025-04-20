@@ -2,20 +2,20 @@ import './styleComponents/Textbox.css'
 import './styleComponents/Header.css'
 import './styleComponents/Footer.css'
 import './styleComponents/PandaQuizButton.css'
+import './styleComponents/Somebox.css'
 
 import Header from './components/header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
+import Somebox from './components/Somebox'
 
 function App() {
   return (
     <div className="FrontPage">
       <div>
         <div className="TitleBox">
-          <img src='/images/pandaDab.png' alt='pandadab' />
           <Header />
-          <h2 className="headerText">Pieni askel - Suuri ilo</h2>
         </div>
         <Textbox teksti={
           <>
@@ -23,7 +23,9 @@ function App() {
             <p>Kampanjamme näkyy niin somessa kuin ympäristössä. Kampanja tarjoaa aikuisille konkreettisia vinkkejä ja materiaaleja, joiden avulla omien ja läheisten lasten arkeen voi tuoda lisää liikettä yksi askel kerrallaan – syyllistämättä, mutta motivoiden. Tule mukaan kokemaan riemua koko perheen voimin ja luomaan iloa liikkeellä!</p>
           </>
         }/>
-        <PandaQuizButton />     
+        <PandaQuizButton />
+        <div className="video">VIDEO</div>    
+        <Somebox /> 
       </div>
       <Footer />
     </div>
