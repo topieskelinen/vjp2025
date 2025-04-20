@@ -4,35 +4,41 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #EC1B7E;
     color: #E3FCEF;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    z-index: 1000;
 }
   
 .contact_info {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
-    align-items: space-around;
+    justify-content: space-between;
+    width: 480px;
     margin-left: 10px;
 }
 
 .contact_info h4 {
-    margin: 0;
+    margin: 0px;
     font-size: 16px;
 }
 
 .logos {
-    height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    padding-top: 0px;
+    padding-bottom: 0px;
     gap: 20px; 
     margin-right: 10px;
+    height: 30px;
 }
   
 .logos img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
   

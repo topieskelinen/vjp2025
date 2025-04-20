@@ -1,6 +1,15 @@
 h1 {
     font-size: 54px;
     color: #EC1B7E;
+    padding-bottom: 0px;
+}
+
+.headerText h1 {
+    margin-top: 20px;
+}
+
+.headerText h4 {
+    margin-top: -10px;
 }
 
 img {

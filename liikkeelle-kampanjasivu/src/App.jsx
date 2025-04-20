@@ -11,7 +11,7 @@ function App() {
       <div className="TitleBox">
         <img src='/images/pandaDab.png' alt='pandadab' />
         <Header />
-        <h4>Pieni askel - Suuri ilo</h4>
+        <h4 className="headerText">Pieni askel - Suuri ilo</h4>
         <Textbox teksti={
           <>
             <p>Tervetuloa ilon täyteiseen kampanjaamme, jonka tavoitteena on auttaa aikuisia lisäämään omien alakouluikäisten lastensa liikuntaa ja tuoda hyvää mieltä koko perheelle! `Pieni askel – suuri ilo´ -kampanja syntyi huolesta lasten vähenevästä liikkumisesta ja kasvavasta ruutuajasta. Haluamme tarjota innostavia, helposti lähestyttäviä tapoja liikkua enemmän yhdessä. Ilo-panda toimii kampanjamme helposti lähestyttävänä maskottina ja kannustajana, joka muistuttaa meitä siitä, että jokainen askel kohti aktiivisempaa arkea on tärkeä.</p>
