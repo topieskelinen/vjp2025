@@ -3,12 +3,17 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #EC1B7E;
+  background-color: #E3FCEF;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
 .FrontPage {
@@ -22,10 +27,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 img {
-  height: 150px;
+  height: 200px;
   width: auto;
-  margin-bottom: 10px;
+  margin-bottom: -30px;
 }
+
+
+.footer {
+  width: 100%;
+}
+
