@@ -1,0 +1,31 @@
+.pandaQuizButton button {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #EC1B7E;
+    margin-top: 30px ;
+    width: 70vw;
+    color: #F6F6F6;
+    border-radius: 10px;
+  }
+
+.pandaQuizButton button:hover {
+    background-color: #2D2C2C;
+    color: #EC1B7E;
+    border: #2D2C2C 2px solid;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+
+.pandaQuizButton h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pandaQuizButton h4 {
+    font-size: 16px;
+    font-weight: bold;
+}

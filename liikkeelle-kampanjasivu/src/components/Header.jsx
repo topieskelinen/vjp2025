@@ -1,5 +1,5 @@
 export default function Header() {
     return (
-        <h1 className="headerText">Liikeelle!</h1>
+        <h1 className="headerText">Liikkeelle!</h1>
     )
 }
