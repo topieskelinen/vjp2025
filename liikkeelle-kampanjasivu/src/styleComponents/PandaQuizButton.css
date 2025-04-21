@@ -13,8 +13,8 @@
   }
 
 .pandaQuizButton button:hover {
-    background-color: #2D2C2C;
-    color: #EC1B7E;
+    background-color: #d2146d;
+    color: #F6F6F6;
     border: #2D2C2C 2px solid;
     transition: all 0.1s ease;
     cursor: pointer;

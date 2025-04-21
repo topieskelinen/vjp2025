@@ -27,6 +27,22 @@
     font-size: 16px;
 }
 
+.contact_info button {
+    background-color: #F6f6f6;
+    color: #EC1B7E;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact_info button:hover {
+    background-color: #cccbcb;
+    color: #EC1B7E;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
 .logos {
     display: flex;
     flex-direction: row;
@@ -41,4 +57,54 @@
     width: 30px;
     height: 30px;
 }
-  
+
+/* Modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Blurred background */
+    backdrop-filter: blur(5px); /* Optional: Adds blur effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modal-content {
+    background: #F6f6f6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.modal-content h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #EC1B7E;
+}
+
+.modal-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.modal-content button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #EC1B7E;
+    color: #F6f6f6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #d0176c;
+    transition: 0.3s ease;
+}
