@@ -3,12 +3,16 @@ import './styleComponents/Header.css'
 import './styleComponents/Footer.css'
 import './styleComponents/PandaQuizButton.css'
 import './styleComponents/Somebox.css'
+import './styleComponents/EmblaCarousel.css'
 
 import Header from './components/header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
 import Somebox from './components/Somebox'
+import { EmblaCarousel } from './components/EmblaCarousel'
+import Autoplay from 'embla-carousel-autoplay'
+
 
 function App() {
   return (
@@ -25,7 +29,7 @@ function App() {
         }/>
         <PandaQuizButton />
         <div className="video">VIDEO</div>    
-        <Somebox /> 
+        <EmblaCarousel />
       </div>
       <Footer />
     </div>

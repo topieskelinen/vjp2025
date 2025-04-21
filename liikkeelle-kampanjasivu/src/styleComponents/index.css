@@ -46,6 +46,7 @@ img {
   height: 40vw;
   background-color: aqua;
   display: flex;
+  justify-self: center;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
