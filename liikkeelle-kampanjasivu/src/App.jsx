@@ -27,7 +27,15 @@ function App() {
         <PandaQuizButton />
         <div className="video">VIDEO</div>    
         <EmblaCarousel />
+        <Textbox teksti={
+          <>
+            <h2>Ilo-pandan liikuntakiertue</h2>
+            <p>Koe yhdessä liikkumisen voima! Tervetuloa mukaan Ilo-pandan liikuntakiertueelle, joka kiertää kevään aikana kahdeksalla paikkakunnalla. Tapahtumassa lapsesi pääsee osallistumaan leikkimieliseen maastojuoksukilpailuun, kokeilemaan uusia leikkejä, liikuntamuotoja ja -lajeja, tapaamaan urheilutähtiä, sekä tietenkin viettämään aikaa Ilo-pandan kanssa, joka on mukana touhussa! </p>
+            <p>Vieraileva tähti paljastetaan aina edellisellä viikolla Instagramissa ja Facebookissa. Ilo-pandan liikuntakiertue on mahdollisimman pienen kynnyksen tapahtuma, maksuton ja suunnattu koko perheelle. Samalla kun lapset nauttivat tapahtuman aktiviteeteista, aikuisille on tarjolla neuvontaa ja vinkkejä.</p>
+          </>
+        }/>
       </div>
+      
       <Footer />
     </div>
   )

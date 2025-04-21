@@ -32,11 +32,13 @@
 .embla-wrapper {
   display: flex;
   flex-direction: column;
+  width: 86%;
   align-items: center;
+  justify-self: center;
   border: #2D2C2C 2px solid;
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   background-color: #F6F6F6;
 }
 

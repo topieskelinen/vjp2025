@@ -42,8 +42,8 @@ img {
 }
 
 .video {
-  width: 70vw;
-  height: 40vw;
+  width: 50vw;
+  height: 30vw;
   background-color: aqua;
   display: flex;
   justify-self: center;
