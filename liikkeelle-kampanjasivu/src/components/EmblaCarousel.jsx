@@ -40,10 +40,8 @@ export function EmblaCarousel() {
             <div className="embla__slide">Slide 5</div>
             </div>
         </div>
-
-        {/* 🔥 Button text changes dynamically */}
         <button className="start-autoplay-button" onClick={toggleAutoplay}>
-            {isPlaying ? 'Pause Scrolling' : 'Start Scrolling'}
+            {isPlaying ? 'Pysäytä kuvat' : 'Kuvat liikkeelle'}
         </button>
     </div>
   )

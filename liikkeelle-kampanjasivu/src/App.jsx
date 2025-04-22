@@ -3,12 +3,14 @@ import './styleComponents/Header.css'
 import './styleComponents/Footer.css'
 import './styleComponents/PandaQuizButton.css'
 import './styleComponents/EmblaCarousel.css'
+import './styleComponents/EventItem.css'
 
 import Header from './components/header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
 import { EmblaCarousel } from './components/EmblaCarousel'
+import EventItem from './components/EventItem'
 
 
 function App() {
@@ -27,7 +29,16 @@ function App() {
         <PandaQuizButton />
         <div className="video">VIDEO</div>    
         <EmblaCarousel />
+        <Textbox teksti={
+          <>
+            <h2>Ilo-pandan liikuntakiertue</h2>
+            <p>Koe yhdessä liikkumisen voima! Tervetuloa mukaan Ilo-pandan liikuntakiertueelle, joka kiertää kevään aikana kahdeksalla paikkakunnalla. Tapahtumassa lapsesi pääsee osallistumaan leikkimieliseen maastojuoksukilpailuun, kokeilemaan uusia leikkejä, liikuntamuotoja ja -lajeja, tapaamaan urheilutähtiä, sekä tietenkin viettämään aikaa Ilo-pandan kanssa, joka on mukana touhussa! </p>
+            <p>Vieraileva tähti paljastetaan aina edellisellä viikolla Instagramissa ja Facebookissa. Ilo-pandan liikuntakiertue on mahdollisimman pienen kynnyksen tapahtuma, maksuton ja suunnattu koko perheelle. Samalla kun lapset nauttivat tapahtuman aktiviteeteista, aikuisille on tarjolla neuvontaa ja vinkkejä.</p>
+          </>
+        }/>
+        <EventItem />
       </div>
+      
       <Footer />
     </div>
   )

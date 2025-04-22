@@ -1,0 +1,23 @@
+.event {
+    border: #2D2C2C 2px solid;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    color: #2D2C2C;
+    padding-right: 20px;
+}
+
+.eventItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    width: auto;
+}
+
+.eventItemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
