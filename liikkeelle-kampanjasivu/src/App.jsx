@@ -4,6 +4,7 @@ import './styleComponents/Footer.css'
 import './styleComponents/PandaQuizButton.css'
 import './styleComponents/EmblaCarousel.css'
 import './styleComponents/EventItem.css'
+import './styleComponents/Navigation.css'
 
 import Header from './components/header'
 import Textbox from './components/Textbox'
@@ -11,11 +12,13 @@ import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
 import { EmblaCarousel } from './components/EmblaCarousel'
 import EventItem from './components/EventItem'
+import Navigation from './components/Navigation'
 
 
 function App() {
   return (
     <div className="FrontPage">
+      <Navigation />
       <div>
         <div className="TitleBox">
           <Header />

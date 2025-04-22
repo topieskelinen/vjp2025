@@ -1,0 +1,50 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EC1B7E;
+    color: #E3FCEF;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 1000;
+}
+
+.navCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.kotiButton {
+    margin-left: 10px;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.navigation button {
+    background-color: #F6f6f6;
+    color: #EC1B7E;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background-color: #cccbcb;
+    color: #EC1B7E;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
