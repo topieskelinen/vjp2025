@@ -3,12 +3,14 @@ import './styleComponents/Header.css'
 import './styleComponents/Footer.css'
 import './styleComponents/PandaQuizButton.css'
 import './styleComponents/EmblaCarousel.css'
+import './styleComponents/EventItem.css'
 
 import Header from './components/header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
 import { EmblaCarousel } from './components/EmblaCarousel'
+import EventItem from './components/EventItem'
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
             <p>Vieraileva tähti paljastetaan aina edellisellä viikolla Instagramissa ja Facebookissa. Ilo-pandan liikuntakiertue on mahdollisimman pienen kynnyksen tapahtuma, maksuton ja suunnattu koko perheelle. Samalla kun lapset nauttivat tapahtuman aktiviteeteista, aikuisille on tarjolla neuvontaa ja vinkkejä.</p>
           </>
         }/>
+        <EventItem />
       </div>
       
       <Footer />

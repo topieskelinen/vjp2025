@@ -23,9 +23,15 @@ export default function Footer() {
                     <button onClick={openModal}>Contact information</button>
                 </div>
                 <div className="logos">
-                    <img src='/images/instagram_icon.png' alt='instagram logo' />
-                    <img src='/images/tiktok_icon.png' alt='tiktok logo' />
-                    <img src='/images/facebook_icon.png' alt='facebook logo' />
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <img src='/images/instagram_icon.png' alt='instagram logo' />
+                    </a>
+                    <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+                        <img src='/images/tiktok_icon.png' alt='tiktok logo' />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img src='/images/facebook_icon.png' alt='facebook logo' />
+                    </a>
                 </div>
             </div>
 
