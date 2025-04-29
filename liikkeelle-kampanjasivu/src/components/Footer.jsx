@@ -20,7 +20,7 @@ export default function Footer() {
         <>
             <div className="footer">
                 <div className="contact_info">
-                    <button onClick={openModal}>Contact Information</button>
+                    <button onClick={openModal}>Ota yhteyttä!</button>
                 </div>
                 <div className="logos">
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
