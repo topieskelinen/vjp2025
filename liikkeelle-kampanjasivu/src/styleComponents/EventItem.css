@@ -21,3 +21,20 @@
     align-items: center;
     margin-bottom: 120px;
 }
+
+@media screen and (max-width: 1000px) {
+    .eventItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .eventItem img {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+}
+

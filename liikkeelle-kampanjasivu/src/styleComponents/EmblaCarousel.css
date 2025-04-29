@@ -1,6 +1,6 @@
 .embla {
   overflow: hidden;
-  width: 65vw;
+  width: 64.7vw;
   height: 35vw;
   margin-top: 20px;
   text-align: center;
@@ -42,22 +42,23 @@
   background-color: #F6F6F6;
 }
 
-.start-autoplay-button {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  background-color: #EC1B7E;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  margin-bottom: 20px;
-}
-
-.start-autoplay-button:hover {
-  background-color: #c4166a;
-}
 
 .embla-wrapper h2 {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .eventItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 10px;
+      width: 80%;
+  }
+
+  .eventItem img {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+  }
 }

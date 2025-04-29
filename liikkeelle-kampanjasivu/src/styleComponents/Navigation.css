@@ -22,6 +22,10 @@
     width: 100%;
 }
 
+.pandaNavPic {
+    width: auto;
+    height: 35px;}
+
 .kotiButton {
     margin-left: 10px;
 }
@@ -31,6 +35,21 @@
     flex-direction: row;
     gap: 10px;
     margin-right: 10px;
+}
+
+.navLeft {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.navTitle {
+    font-size: 22px;
+    color: #E3FCEF;
+    justify-self: center;
+    margin: 0px;
 }
 
 .navigation button {

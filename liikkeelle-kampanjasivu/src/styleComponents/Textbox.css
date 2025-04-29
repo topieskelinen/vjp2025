@@ -4,6 +4,7 @@
     color: #2D2C2C;
     display: flex;
     justify-content: center;
+    justify-self: center;
     background-color: #F6F6F6;
     border-radius: 10px;
     border: #2D2C2C 2px solid;
