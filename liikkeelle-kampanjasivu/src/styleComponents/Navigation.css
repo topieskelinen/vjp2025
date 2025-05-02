@@ -43,6 +43,7 @@
     justify-self: center;
     gap: 10px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .navTitle {
