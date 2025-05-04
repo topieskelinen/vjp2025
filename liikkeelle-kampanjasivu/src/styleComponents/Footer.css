@@ -34,6 +34,7 @@
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    color: #2D2C2C;
 }
 
 .contact_info button:hover {
