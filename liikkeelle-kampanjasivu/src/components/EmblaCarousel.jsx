@@ -16,17 +16,35 @@ export function EmblaCarousel() {
     },
     [autoplay.current]
   )
-
   return (
     <div className="embla-wrapper">
       <h2>Sosiaalinen media</h2>
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
-          <div className="embla__slide">Slide 1</div>
-          <div className="embla__slide">Slide 2</div>
-          <div className="embla__slide">Slide 3</div>
-          <div className="embla__slide">Slide 4</div>
-          <div className="embla__slide">Slide 5</div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva1.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <video className="media-slide" controls>
+              <source src="/videos/tiktok1.mp4" type="video/mp4" />
+              Selaimesi ei tue videon toistoa.
+            </video>
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva2.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva3.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva4.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva5.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/facebook1.png" alt="Facebook tapahtuma" />
+          </div>
         </div>
       </div>
     </div>
