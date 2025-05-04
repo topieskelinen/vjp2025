@@ -44,12 +44,11 @@ img {
 .video {
   width: 50vw;
   height: 30vw;
-  background-color: aqua;
   display: flex;
   justify-self: center;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 10px ;
   font-size: 40px;
 }
