@@ -11,6 +11,7 @@ import Header from './components/header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import EventItem from './components/EventItem'
+import TourMap from './components/TourMap';
 
 export default function EventPage() {
     return (
@@ -35,7 +36,10 @@ export default function EventPage() {
                     </>
                   }
                 /> 
+            
+            <TourMap />
             <EventItem />
+          
             <Footer />
         </div>
     )
