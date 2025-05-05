@@ -8,6 +8,7 @@
     padding-bottom: 10px;
     background-color: #EC1B7E;
     color: #E3FCEF;
+    box-shadow: 0 -6px 10px 5px black;
     position: fixed;
     top: 0; 
     left: 0;

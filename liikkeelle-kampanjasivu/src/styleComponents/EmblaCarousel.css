@@ -32,7 +32,7 @@
 .embla-wrapper {
   display: flex;
   flex-direction: column;
-  width: 86%;
+  width: 96%;
   align-items: center;
   justify-self: center;
   border: #2D2C2C 2px solid;
@@ -42,7 +42,7 @@
   background-color: #F6F6F6;
   padding: 2rem 1rem;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 30vh;
 }
 
 .media-slide {
