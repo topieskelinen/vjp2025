@@ -39,7 +39,7 @@ export default function EventItem() {
         <div className="eventItem">
             <EventDates />
             <EventTimes />
-            <img src='/images/juoksevaPanda.png' alt='juokseva panda' />
+            <img src='/images/juoksevaPanda.png' alt='juokseva panda' className="bouncing-image" />
         </div>
       </div>
     )

@@ -59,6 +59,33 @@ img {
   animation-delay: 0.3s;
 }
 
+.moving-image {
+  animation: moveSideways 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveSideways {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+
+.bouncing-image {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
