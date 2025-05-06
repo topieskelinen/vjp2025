@@ -76,6 +76,17 @@
 
   .embla-wrapper {
     padding: 0.5rem;
+    width: 90%
+  }
+
+  .embla-wrapper h2 {
+margin-bottom: 5px;
+  }
+
+  .embla {
+    margin-top: 0px;
+    width: 90%;
+    height: auto;
   }
 
   .media-slide {
@@ -88,3 +99,14 @@
   }
 }
 
+
+@media screen and (max-width: 450px) {
+  .embla-wrapper {
+    width: 90vw
+  }
+
+  .embla-wrapper h2 {
+    margin-top: -5px;
+    padding-bottom: 5px;
+  }
+}

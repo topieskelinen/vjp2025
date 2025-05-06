@@ -52,3 +52,11 @@ img {
   border-radius: 10px ;
   font-size: 40px;
 }
+
+@media screen and (max-width: 800px) {
+  .video {
+    width: 90vw;
+    height: 50vw;
+  }
+  
+}

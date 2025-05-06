@@ -32,17 +32,26 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 500px) {
-    .pandaQuizButton button{
-        width: 85vw;
+
+@media screen and (max-width: 700px) {
+    .pandaQuizButton h4 {
+        display: none;
+    }
+    .pandaQuizButton button {
+        width: 65vw;
+        height: 60px;
     }
 
     .pandaQuizButton h2 {
         font-size: 18px;
-        margin-bottom: -5px;
+        margin-top: 0px;
+
     }
-    
-    .pandaQuizButton h4 {
-        font-size: 16px;
+}
+
+@media screen and (max-width: 400px) {
+    .pandaQuizButton button {
+        width: 80vw;
+        height: 60px;
     }
 }
