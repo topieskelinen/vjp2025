@@ -31,3 +31,18 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 500px) {
+    .pandaQuizButton button{
+        width: 85vw;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 18px;
+        margin-bottom: -5px;
+    }
+    
+    .pandaQuizButton h4 {
+        font-size: 16px;
+    }
+}

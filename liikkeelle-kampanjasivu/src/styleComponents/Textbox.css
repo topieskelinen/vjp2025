@@ -18,3 +18,13 @@
     flex-direction: column;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .textbox_text {
+    width: 92%;
+}
+
+    .textbox {
+    width: 90vw;
+
+}}
