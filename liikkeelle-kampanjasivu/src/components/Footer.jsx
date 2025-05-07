@@ -20,7 +20,7 @@ export default function Footer() {
         <>
             <div className="footer">
                 <div className="contact_info">
-                    <button onClick={openModal}>Ota yhteyttä!</button>
+                    <button onClick={openModal}>Yhteystiedot</button>
                 </div>
                 <div className="logos">
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
@@ -38,9 +38,9 @@ export default function Footer() {
             {isModalOpen && (
                 <div className="modal-overlay" onClick={closeModal}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                        <h2>Contact Information</h2>
-                        <p>Email: liikkeelle@liikkeelle.fi</p>
-                        <p>Phone: +358 50 1234567</p>
+                        <h2>Yhteystiedot</h2>
+                        <p>Sähköposti: liikkeelle@liikkeelle.fi</p>
+                        <p>Puhelinnumero: +358 50 1234567</p>
                         <button onClick={closeModal}>Close</button>
                     </div>
                 </div>
