@@ -9,7 +9,7 @@ import './styleComponents/EventItem.css'
 import './styleComponents/Navigation.css'
 
 
-import Header from './components/header'
+import Header from './components/Header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
