@@ -25,10 +25,7 @@
 
 .pandaNavPic {
     width: auto;
-    height: 35px;}
-
-.kotiButton {
-    margin-left: 10px;
+    height: 35px;
 }
 
 .navRight {
@@ -36,6 +33,7 @@
     flex-direction: row;
     gap: 10px;
     margin-right: 10px;
+    position: relative;
 }
 
 .navLeft {
@@ -64,10 +62,38 @@
     color: #2D2C2C;
 }
 
-
 .navigation button:hover {
     background-color: #cccbcb;
     color: #EC1B7E;
     cursor: pointer;
     transition: 0.3s ease;
 }
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #F6F6F6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dropdownMenu button {
+    margin-bottom: 5px;
+    background-color: #EC1B7E;
+    color: #F6F6F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdownMenu button:hover {
+    background-color: #d2146d;
+}
+
