@@ -6,14 +6,13 @@ export default function Footer() {
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
-    // Disable scrolling when modal is open
     useEffect(() => {
         if (isModalOpen) {
             document.body.style.overflow = 'hidden';
         } else {
             document.body.style.overflow = 'auto';
         }
-        return () => (document.body.style.overflow = 'auto'); // Cleanup on unmount
+        return () => (document.body.style.overflow = 'auto');
     }, [isModalOpen]);
 
     return (
