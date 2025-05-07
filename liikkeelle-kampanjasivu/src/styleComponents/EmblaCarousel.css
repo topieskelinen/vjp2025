@@ -59,6 +59,16 @@
   margin-bottom: 0px;
 }
 
+.embla_slide img,
+.embla_slide video {
+  transition: transform 0.3s ease;
+}
+
+.embla_slide:hover img,
+.embla_slide:hover video {
+  transform: scale(1.02);
+}
+
 @media screen and (max-width: 1000px) {
   .eventItem {
       display: flex;
