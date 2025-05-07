@@ -22,11 +22,23 @@ export function EmblaCarousel() {
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
           <div className="embla__slide">
-            <img className="media-slide" src="/images/igkuva1.png" alt="IG kuva" />
+            <video className="media-slide" controls>
+              <source src="/videos/tiktok1.mp4" type="video/mp4" />
+              Selaimesi ei tue videon toistoa.
+            </video>
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva6.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva7.png" alt="IG kuva" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva8.png" alt="IG kuva" />
           </div>
           <div className="embla__slide">
             <video className="media-slide" controls>
-              <source src="/videos/tiktok1.mp4" type="video/mp4" />
+              <source src="/videos/tiktok2.mp4" type="video/mp4" />
               Selaimesi ei tue videon toistoa.
             </video>
           </div>
@@ -44,6 +56,9 @@ export function EmblaCarousel() {
           </div>
           <div className="embla__slide">
             <img className="media-slide" src="/images/facebook1.png" alt="Facebook tapahtuma" />
+          </div>
+          <div className="embla__slide">
+            <img className="media-slide" src="/images/igkuva1.png" alt="IG kuva" />
           </div>
         </div>
       </div>
