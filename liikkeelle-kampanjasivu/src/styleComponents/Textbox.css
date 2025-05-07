@@ -17,8 +17,23 @@
     justify-content: center;
     flex-direction: column;
     font-weight: bold;
+    white-space:pre-line;
 }
-
+.korostettu-linkki {
+    color: #e6007e;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .vinkkilaatikko {
+    background-color: #eaf8f1;
+    border-left: 5px solid #e6007e;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+  
 @media screen and (max-width: 600px) {
     .textbox_text {
     width: 92%;
