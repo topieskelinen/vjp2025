@@ -59,6 +59,10 @@ export function EmblaCarousel() {
           </div>
           <div className="embla__slide">
             <img className="media-slide" src="/images/igkuva1.png" alt="IG kuva" />
+          <div/>
+          <div className="embla__slide">
+            <img id='mahdollisuus_ig' className="media-slide" src="/images/igkuva_nuutti.png" alt="IG kuva" />
+           </div>
           </div>
         </div>
       </div>
