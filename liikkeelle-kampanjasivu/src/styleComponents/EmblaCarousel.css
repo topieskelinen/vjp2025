@@ -32,7 +32,6 @@
 .embla-wrapper {
   display: flex;
   flex-direction: column;
-  width: 96%;
   align-items: center;
   justify-self: center;
   border: #2D2C2C 2px solid;

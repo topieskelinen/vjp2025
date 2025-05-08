@@ -8,6 +8,11 @@
     background-color: #F6F6F6;
     border-radius: 10px;
     border: #2D2C2C 2px solid;
+    transition: width 0.3s ease;
+}
+
+.textbox-expanded {
+    width: 75vw;
 }
 
 .textbox_text {
@@ -17,29 +22,43 @@
     justify-content: center;
     flex-direction: column;
     font-weight: bold;
-    white-space:pre-line;
+    white-space: pre-line;
 }
+
 .korostettu-linkki {
-    color: #e6007e;
+    color: #EC1B7E;
     font-weight: bold;
     cursor: pointer;
     text-decoration: underline;
-  }
-  
-  .vinkkilaatikko {
-    background-color: #eaf8f1;
-    border-left: 5px solid #e6007e;
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 8px;
-  }
-  
-@media screen and (max-width: 600px) {
-    .textbox_text {
-    width: 92%;
 }
 
-    .textbox {
-    width: 90vw;
+.vinkkilaatikko {
+    background-color: #F6F6F6;
+    border-left: 5px solid #EC1B7E;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-}}
+.textbox-expanded {
+    width: 90vw; 
+    height: auto;
+}
+
+.textbox-expanded h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .textbox_text {
+        width: 92%;
+    }
+
+    .textbox {
+        width: 90vw;
+    }
+}
