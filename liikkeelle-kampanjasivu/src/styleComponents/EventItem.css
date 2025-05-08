@@ -32,9 +32,25 @@
     }
 
     .eventItem img {
-        width: 100%;
+        width: 300px;
         height: auto;
-        justify-content: center;
+        justify-self: center;
     }
+
+    .eventItemContainer h2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .eventItem img {
+        width: 200px;
+        height: auto;
+        justify-self: center;
+    }
+
 }
 
