@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     position: relative;
 }
 
@@ -41,7 +41,7 @@
     flex-direction: row;
     justify-self: center;
     gap: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     cursor: pointer;
 }
 
@@ -60,6 +60,7 @@
     padding: 5px 10px;
     cursor: pointer;
     color: #2D2C2C;
+    font-size: 14px;
 }
 
 .navigation button:hover {
@@ -95,5 +96,9 @@
 
 .dropdownMenu button:hover {
     background-color: #d2146d;
+}
+
+.button {
+    font-size: 14px;
 }
 

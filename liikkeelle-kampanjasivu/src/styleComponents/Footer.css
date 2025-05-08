@@ -18,8 +18,8 @@
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    width: 480px;
-    margin-left: 10px;
+    padding: 5px 10px;
+    margin-left: 15px;
 }
 
 .contact_info h4 {
@@ -86,13 +86,13 @@
 
 .modal-content h2 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 24px;
     color: #EC1B7E;
 }
 
 .modal-content p {
     margin: 10px 0;
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
 }
 
