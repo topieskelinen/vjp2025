@@ -9,10 +9,7 @@
     border-radius: 10px;
     border: #2D2C2C 2px solid;
     transition: width 0.3s ease;
-}
-
-.textbox-expanded {
-    width: 75vw;
+    flex-direction: row;
 }
 
 .textbox_text {
@@ -49,6 +46,24 @@
 .textbox-expanded h4 {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .textbox {
+        flex-direction: column; /* Siirretään vinkkilaatikko alle */
+        align-items: center; /* Keskitetään sisältö */
+    }
+
+    .vinkkilaatikko {
+        border-left: none; /* Poistetaan vasen reuna */
+        border-top: 5px solid #EC1B7E; /* Lisätään yläreuna */
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 10px;
+        margin-top: 10px; /* Lisätään väli tekstin ja laatikon väliin */
+    }
 }
 
 
