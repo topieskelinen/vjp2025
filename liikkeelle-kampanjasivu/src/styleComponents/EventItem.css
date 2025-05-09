@@ -22,6 +22,24 @@
     margin-bottom: 120px;
 }
 
+.containerLogo {
+    display: flex;
+    align-items: center;
+  }
+
+  .sponsorlogos {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+  }
+  
+  .sponsorlogos img {
+    margin-bottom: 10px;
+    height: auto;
+    width: 300px;
+    object-fit: contain;
+  }
+
 @media screen and (max-width: 1000px) {
     .eventItem {
         display: flex;
@@ -41,6 +59,14 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .sponsorlogos {
+        display: flex;
+        flex-direction: row; 
+        gap: 20px; 
+      }
+
+    
 
 }
 
