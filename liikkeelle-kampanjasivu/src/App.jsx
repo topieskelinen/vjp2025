@@ -7,6 +7,7 @@ import './styleComponents/PandaQuizButton.css'
 import './styleComponents/EmblaCarousel.css'
 import './styleComponents/EventItem.css'
 import './styleComponents/Navigation.css'
+import './styleComponents/EventButton.css'
 
 
 import Header from './components/Header'
@@ -16,9 +17,12 @@ import PandaQuizButton from './components/PandaQuizButton'
 import { EmblaCarousel } from './components/EmblaCarousel'
 import EventItem from './components/EventItem'
 import Navigation from './components/Navigation'
-import EventPage from './EventPage' 
+import EventPage from './EventPage'
+import EventButton from './components/EventButton';
 
 function App() {
+
+
   return (
     <Router>
       <div className="FrontPage">
@@ -55,10 +59,13 @@ function App() {
                       <p>
                       Koe yhdessä liikkumisen voima! Tervetuloa mukaan Ilo-pandan liikuntakiertueelle, joka kiertää kevään aikana kahdeksalla paikkakunnalla. Tapahtumassa lapsesi pääsee osallistumaan erilaisiin leikkimielisiin kilpailuihin ja lajikokeiluihin huippu-urheilijoiden, sekä Ilo-pandan kanssa. Tapahtumissa on myös aikuisille soveltuvaa ohjelmaa. 
                       </p>
-                      <p>Lisätietoa tapahtumista löydät yläpalkin Liikuntakiertue-napin takaa!</p>
+                      <p>Lisätietoa tapahtumista löydät tästä:</p> 
+                      <EventButton />
                     </>
                   }
+                  
                 />
+                
                 <EventItem />
               </div>
             }
