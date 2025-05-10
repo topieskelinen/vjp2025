@@ -62,7 +62,8 @@
 
     .sponsorlogos {
         display: flex;
-        flex-direction: row; 
+        justify-content: center;
+        flex-direction: column; 
         gap: 20px; 
       }
 
