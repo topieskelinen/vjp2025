@@ -7,7 +7,8 @@
     background-color: #EC1B7E;
     margin-top: 20px ;
     width: 50vw;
-    height: 50px;
+    height: auto;
+    padding: 10px;
     color: #F6F6F6;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -30,11 +31,40 @@
 }
 
 
+@media screen and (max-width: 4096px) {
+    .eventButton button {
+        width: 65vw;
+    }
+
+    .eventButton h2 {
+        font-size: 55px;
+    }
+}
+
+
+@media screen and (max-width: 3000px) {
+    .eventButton button {
+        width: 65vw;
+    }
+
+    .eventButton h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .eventButton button {
+        width: 65vw;
+    }
+
+    .eventButton h2 {
+        font-size: 25px;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .eventButton button {
         width: 65vw;
-        height: 40px;
     }
 
     .eventButton h2 {
