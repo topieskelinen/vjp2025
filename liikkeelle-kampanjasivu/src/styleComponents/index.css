@@ -99,3 +99,31 @@ img {
   }
   
 }
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  body {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+}

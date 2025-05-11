@@ -6,23 +6,24 @@ export default function Textbox(props) {
   const [showTips, setShowTips] = useState(false);
   const korostettuFraasi = "tarjoaa aikuisille konkreettisia vinkkejä";
 
-
   const isString = typeof props.teksti === "string";
   const splitText = isString ? props.teksti.split(korostettuFraasi) : [];
 
   return (
-    <div className="textbox fade-in">
+    <div className={`textbox fade-in ${showTips ? "textbox-expanded" : ""}`}>
       <h4 className="textbox_text">
         {isString && splitText.length === 2 ? (
           <>
-            {splitText[0]}
-            <span
-              className="korostettu-linkki"
-              onClick={() => setShowTips(!showTips)}
-            >
-              {korostettuFraasi}
+            <span className="textbox_inline">
+              {splitText[0]}
+              <span
+                className="korostettu-linkki"
+                onClick={() => setShowTips(!showTips)}
+              >
+                {korostettuFraasi}
+              </span>
+              {splitText[1]}
             </span>
-            {splitText[1]}
           </>
         ) : (
           props.teksti

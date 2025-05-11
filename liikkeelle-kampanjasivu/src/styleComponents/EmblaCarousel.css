@@ -32,7 +32,6 @@
 .embla-wrapper {
   display: flex;
   flex-direction: column;
-  width: 96%;
   align-items: center;
   justify-self: center;
   border: #2D2C2C 2px solid;
@@ -116,6 +115,12 @@ margin-bottom: 5px;
   }
 }
 
+@media screen and (max-width: 660px) {
+  .embla-wrapper {
+    width: 90vw
+  }
+}
+
 
 @media screen and (max-width: 450px) {
   .embla-wrapper {
@@ -125,5 +130,29 @@ margin-bottom: 5px;
   .embla-wrapper h2 {
     margin-top: -5px;
     padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1000px) {
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 3000px) and (min-width: 2000px) {
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 4096px) and (min-width: 3000px) {
+
+  h2 {
+    font-size: 5rem;
+    text-align: center;
   }
 }

@@ -6,21 +6,20 @@ export default function Footer() {
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
-    // Disable scrolling when modal is open
     useEffect(() => {
         if (isModalOpen) {
             document.body.style.overflow = 'hidden';
         } else {
             document.body.style.overflow = 'auto';
         }
-        return () => (document.body.style.overflow = 'auto'); // Cleanup on unmount
+        return () => (document.body.style.overflow = 'auto');
     }, [isModalOpen]);
 
     return (
         <>
             <div className="footer">
                 <div className="contact_info">
-                    <button onClick={openModal}>Yhteystiedot</button>
+                    <button className = "contactText" onClick={openModal}>Yhteystiedot</button>
                 </div>
                 <div className="logos">
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
