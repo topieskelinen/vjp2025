@@ -1,4 +1,6 @@
-## Linkki sivustoon: https://vjp2025.vercel.app/
+## Linkit
+Sivusto: https://vjp2025.vercel.app/
+Figma: https://www.figma.com/design/2YDKmSpFfL4U4jh0jO7gaT/VDM?node-id=1-2&t=qMum9BOzr3dDxILb-1
 
 ## Työnjako ja aikataulu:
  Meillä oli jo alussa tiedossa, että ryhmäläisillämme on erilaisia kiinnotuksenkohteita, ja tehtäviä kannattaa jakaa niiden perusteella. Kommunikointimme Telegram-ryhmässä oli oikein sujuvaa, ja kaikki alkoivat alusta asti tekemään tehtäviä oma-aloitteisesti ja hyvällä aikataululla. Teimme työnjaon niin, että Rosa ja Selma keskittyivät enemmmän VDM-puoleen ja Topi ja Nuutti enemmän-VJP puoleen, vaikka kaikki toki tekivät kaikkea. Sivujen sisältöjen ja Figman suunnittelu olivat pääosin Rosan ja Selman vastuulla, kun taas Nuutti oli VJP boss ja loi mahtavan, toimivan pohjan ja kaikki peruselemenit sivuille. Topi oli vastuussa viimeistelystä ja korjailuista ja auttoi koodausongelmissa, sekä hoiti sivuston julkaisun ja palautukset. Rosa ja Selma lisäsivät omia tyylittelyjä ja hauskoja lisäominaisuuksia. Lisäksi Rosa oli vastuussa somepostauksista, videosta ja niiden lisäyksistä sivustolle, ja Selma responsiivisuudesta huolehtimisesta.
