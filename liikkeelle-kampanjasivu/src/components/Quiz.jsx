@@ -19,7 +19,7 @@ function Quiz() {
         return acc;
       }, {});
       const sorted = Object.entries(frequency).sort((a, b) => b[1] - a[1]);
-      setResult(sorted[0][0]); // Useiten vastatun tyypin mukaan
+      setResult(sorted[0][0]); // Useiten vastatun tyypin mukaan, tasatilanteessa ensimmäinen
     }
   };
 
@@ -27,6 +27,18 @@ function Quiz() {
     setCurrentQuestion(0);
     setAnswers([]);
     setResult(null);
+  }
+
+  // Fisher-Yates shuffle, credit Wikipedia
+  // https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+  // Vastausten järjestys muuttuu joka kerta – myös silloin, kun pelataan uudestaan
+  function shuffleArray(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
   }
 
   return (
@@ -37,7 +49,7 @@ function Quiz() {
             {questions[currentQuestion].question}
           </h2>
           <div className="answer-container">
-          {questions[currentQuestion].answers.map((a, i) => (
+          {shuffleArray(questions[currentQuestion].answers).map((a, i) => (
             <button
               key={i}
               className="answer-button"
@@ -50,7 +62,7 @@ function Quiz() {
         </>
       ) : (
         <div>
-          <h2>Olet {result}!</h2>
+          <h2 className="result">Olet {result}!</h2>
             <p>{pandaTypes[result].description}</p>
             {/* Voi lisätä myöhemmin jos aikaa */}
             {/* <img src={pandaTypes[result].image} alt={result} /> */}

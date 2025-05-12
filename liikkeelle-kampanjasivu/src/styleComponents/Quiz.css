@@ -7,11 +7,11 @@
     margin: 50px 0;
 }
 
-.question {
+.question, .result {
     background-color: #EC1B7E;
     color: #E3FCEF;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .answer-container {
@@ -48,5 +48,9 @@
     .other-button, .answer-button {
         font-size: 1.25rem;
         padding: 15px;
+    }
+
+    .question, .result {
+        padding: 20px;
     }
 }
