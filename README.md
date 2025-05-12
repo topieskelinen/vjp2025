@@ -19,7 +19,7 @@ Selma:
 Vaikea arvioida, mutta UI-puoleen varmaan noin 3h ja sivuston ohjelmointiin ehkä noin 8h.
 
 Topi:
-Aktiivista koodausta noin 6h, lisäksi koodin läpilukua ja konsultointia määrittämätön määrä projektin ajalta. CI/CD ja palautus 1h. 
+Aktiivista koodausta noin 6h, lisäksi koodin läpilukua ja konsultointia määrittämätön määrä projektin ajalta. CI/CD ja palautus 1h. Olin viimeiset pari viikkoa työskentelyajasta koko ajan enemmän tai vähemmän sairaana, mikä haittasi työskentelyä. 
 
 ## Muita huomioita
 
