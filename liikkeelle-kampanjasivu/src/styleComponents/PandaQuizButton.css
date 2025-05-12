@@ -1,0 +1,106 @@
+.pandaQuizButton button {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #EC1B7E;
+    margin-top: 20px ;
+    width: 55vw;
+    height: auto;
+    color: #F6F6F6;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+.pandaQuizButton button:hover {
+    background-color: #d2146d;
+    color: #F6F6F6;
+    border: #2D2C2C 2px solid;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+
+.pandaQuizButton h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.pandaQuizButton h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 700px) {
+    .pandaQuizButton h4 {
+        display: none;
+    }
+    .pandaQuizButton button {
+        width: 65vw;
+        height: 60px;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 18px;
+        margin-top: 0px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pandaQuizButton button {
+        width: 80vw;
+        height: 60px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .pandaQuizButton button {
+        width: 50vw;
+        height: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 38px;
+    }
+
+    .pandaQuizButton h4 {
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .pandaQuizButton button {
+        width: 40vw;
+        height: auto;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 45px;
+    }
+    .pandaQuizButton h4 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .pandaQuizButton button {
+        width: 30vw;
+        height: auto;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 55px;
+    }
+    .pandaQuizButton h4 {
+        font-size: 47px;
+    }
+}

@@ -1,0 +1,42 @@
+.tour-map-container {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .tour-map {
+    height: 100%;
+    width: 100%;
+  }
+
+@media screen and (max-width: 400px) {
+    .tour-map-container {
+        height: 300px;
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2% ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      
+    
+}
+
+@media screen and (min-width: 1000px) {
+  .tour-map-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 800px ;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .tour-map-container {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 1000px ;
+  }
+}

@@ -1,0 +1,129 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #EC1B7E;
+  background-color: #E3FCEF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.FrontPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.TitleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  margin-bottom: -30px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.video {
+  width: 50vw;
+  height: 30vw;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px ;
+  font-size: 40px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.moving-image {
+  animation: moveSideways 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveSideways {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+
+.bouncing-image {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .video {
+    width: 90vw;
+    height: 50vw;
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  body {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+}
