@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { questions } from "../data/questions.js";
+import { pandaTypes } from "../data/pandaTypes.js";
 
 function Quiz() {
   // useStates 
@@ -22,26 +23,41 @@ function Quiz() {
     }
   };
 
+  function handleRestart() {
+    setCurrentQuestion(0);
+    setAnswers([]);
+    setResult(null);
+  }
+
   return (
-    <div>
+    <div className="quiz-container">
       {!result ? (
         <>
-          <h2>
+          <h2 className="question">
             {questions[currentQuestion].question}
           </h2>
+          <div className="answer-container">
           {questions[currentQuestion].answers.map((a, i) => (
             <button
               key={i}
+              className="answer-button"
               onClick={() => handleAnswer(a.type)}
             >
               {a.text}
             </button>
           ))}
+          </div>
         </>
       ) : (
         <div>
           <h2>Olet {result}!</h2>
+            <p>{pandaTypes[result].description}</p>
+            {/* Voi lisätä myöhemmin jos aikaa */}
+            {/* <img src={pandaTypes[result].image} alt={result} /> */}
+            <button className="other-button" onClick={handleRestart}>Uudestaan!</button>
+            <button className="other-button" onClick={() => window.location.href = "/"}>Etusivulle</button>
         </div>
+        
       )}
     </div>
   );

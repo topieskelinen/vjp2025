@@ -9,6 +9,7 @@ import './styleComponents/EventItem.css'
 import './styleComponents/Navigation.css'
 import './styleComponents/EventButton.css'
 import './styleComponents/TourMap.css'
+import './styleComponents/quiz.css'
 
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
