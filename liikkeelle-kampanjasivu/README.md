@@ -1,14 +1,20 @@
-# React + Vite
+##Linkki sivustoon:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Työnjako ja aikataulu:
+ Meillä oli jo alussa tiedossa, että ryhmäläisillämme on erilaisia kiinnotuksenkohteita, ja tehtäviä kannattaa jakaa niiden perusteella. Kommunikointimme Telegram-ryhmässä oli oikein sujuvaa, ja kaikki alkoivat alusta asti tekemään tehtäviä oma-aloitteisesti ja hyvällä aikataululla. Teimme työnjaon niin, että Rosa ja Selma keskittyivät enemmmän VDM puoleen ja Topi ja Nuutti enemmän VJP puoleen, vaikka tottakai kaikki tekivät kaikkea. Sivujen sisältöjen ja Figman suunnittelu olivat pääosin Rosan ja Selman vastuulla, kun taas Nuutti oli VJP boss ja loi mahtavan, toimivan pohjan ja kaikki peruselemenit sivuille. Topi oli vastuussa viimeistelystä ja korjailuista ja auttoi koodausongelmissa, sekä hoiti sivuston julkaisun ja palautukset. Rosa ja Selma lisäsivät omia tyylittelyjä ja hauskoja lisäominaisuuksia. Lisäksi Rosa oli vastuussa somepostauksista, videosta ja niiden lisäyksistä sivustolle, ja Selma responsiivisuudesta huolehtimisesta.
 
-Currently, two official plugins are available:
+Työskentelyn myötä opimme, että UI-suunnittelulla ja nettisivun yleisellä visuaalisella ilmeellä on suuri vaikutus käyttäjälle syntyvään mielikuvaan. Kampanjan viestintään vaikuttaa vahvasti sivun estetiikka (esim. värimaailma, fontit, asettelu). Koska kampanjamme idea oli olla leikkimielisempi ja osittain lapsille suunnattu, oli tärkeää, että tämä mielikuva välittyy UI-puoleltakin.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hyödynsimme tekoälyä tehtävänannossaa pitkälti assarrin tavoin. Esimerkiksi jos oli jokin bugi tai virheilmoitus, jota ei osannut itse ratkaista, oli tekoälystä hyötyä.
 
-## Expanding the ESLint configuration
+##Työtunnit 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Nuutti:
 
-muutos
+Rosa: 
+Tosi vaikee arvioida kun tein niin pitkällä aikavälillä ja pikkupätkissä, ehkä noin 10h.
+
+Selma:
+Vaikea arvioida, mutta UI-puoleen varmaan noin 3h ja sivuston ohjelmointiin ehkä noin 8h.
+
+Topi:

@@ -57,3 +57,48 @@
         height: 60px;
     }
 }
+
+
+@media screen and (min-width: 1000px) {
+    .pandaQuizButton button {
+        width: 50vw;
+        height: auto;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 38px;
+    }
+
+    .pandaQuizButton h4 {
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 2000px) {
+    .pandaQuizButton button {
+        width: 40vw;
+        height: auto;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 45px;
+    }
+    .pandaQuizButton h4 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .pandaQuizButton button {
+        width: 30vw;
+        height: auto;
+    }
+
+    .pandaQuizButton h2 {
+        font-size: 55px;
+    }
+    .pandaQuizButton h4 {
+        font-size: 47px;
+    }
+}
