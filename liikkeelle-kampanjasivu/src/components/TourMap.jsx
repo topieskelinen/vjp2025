@@ -7,15 +7,16 @@ const customIcon = new L.Icon({
 });
 
 const tourStops = [
-    { city: "Helsinki", date: "15. huhtikuuta", lat: 60.1699, lng: 24.9384 },
-    { city: "Espoo", date: "22. huhtikuuta", lat: 60.2055, lng: 24.6559 },
-    { city: "Vantaa", date: "29. huhtikuuta", lat: 60.2934, lng: 25.0378 },
-    { city: "Tampere", date: "6. toukokuuta", lat: 61.4978, lng: 23.7610 },
-    { city: "Oulu", date: "13. toukokuuta", lat: 65.0121, lng: 25.4651 },
-    { city: "Turku", date: "20. toukokuuta", lat: 60.4518, lng: 22.2666 },
-    { city: "Jyväskylä", date: "27. toukokuuta", lat: 62.2415, lng: 25.7209 },
-    { city: "Lahti", date: "3. kesäkuuta", lat: 60.9827, lng: 25.6615 },
+    { city: "Helsinki", date: "3. toukokuuta", lat: 60.1699, lng: 24.9384 },
+    { city: "Espoo", date: "5. toukokuuta", lat: 60.2055, lng: 24.6559 },
+    { city: "Turku", date: "10. toukokuuta", lat: 60.4518, lng: 22.2666 },
+    { city: "Tampere", date: "12. toukokuuta", lat: 61.4978, lng: 23.7610 },
+    { city: "Jyväskylä", date: "16. toukokuuta", lat: 62.2415, lng: 25.7209 },
+    { city: "Kuopio", date: "28. toukokuuta", lat: 62.8924, lng: 27.6770 },
+    { city: "Oulu", date: "24. toukokuuta", lat: 65.0121, lng: 25.4651 },
+    { city: "Rovaniemi", date: "26. toukokuuta", lat: 66.5039, lng: 25.7294 },
 ];
+
 
 export default function TourMap() {
   return (
