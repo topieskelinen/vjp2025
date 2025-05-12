@@ -14,6 +14,7 @@ import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import HomePage from './HomePage'
 import EventPage from './EventPage'
+import QuizPage from './QuizPage';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/tapahtuma" element={<EventPage />} />
+          <Route path="/panda-quiz" element={<QuizPage />} />
         </Routes>
         <Footer />
       </div>
