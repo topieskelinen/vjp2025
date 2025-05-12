@@ -1,4 +1,4 @@
-import Header from './components/header'
+import Header from './components/Header'
 import Textbox from './components/Textbox'
 import PandaQuizButton from './components/PandaQuizButton'
 import { EmblaCarousel } from './components/EmblaCarousel'
