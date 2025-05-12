@@ -47,7 +47,7 @@ function App() {
                 <PandaQuizButton />
                 <div className="video">
                 <video controls width="100%">
-                  <source src="/videos/kampanjavideo.mp4" type="video/mp4" />
+                  <source src="/videos/kampanjavideopieni.mp4" type="video/mp4" />
                   Selaimesi ei tue videon toistoa.
                   </video>
                 </div>
