@@ -2,14 +2,14 @@ function EventDates() {
   return (
     <div className="event">
       <ul>
-        <li>1. tapahtuma: Helsinki – 15. huhtikuuta</li>
-        <li>2. tapahtuma: Espoo – 22. huhtikuuta</li>
-        <li>3. tapahtuma: Vantaa – 29. huhtikuuta</li>
-        <li>4. tapahtuma: Tampere – 6. toukokuuta</li>
-        <li>5. tapahtuma: Oulu – 13. toukokuuta</li>
-        <li>6. tapahtuma: Turku – 20. toukokuuta</li>
-        <li>7. tapahtuma: Jyväskylä – 27. toukokuuta</li>
-        <li>8. tapahtuma: Lahti – 3. kesäkuuta</li>
+        <li>1. tapahtuma: Helsinki – 3. toukokuuta</li>
+        <li>2. tapahtuma: Espoo – 5. toukokuuta</li>
+        <li>3. tapahtuma: Turku – 10. toukokuuta</li>
+        <li>4. tapahtuma: Tampere – 12. toukokuuta</li>
+        <li>5. tapahtuma: Jyväskylä – 16. toukokuuta</li>
+        <li>6. tapahtuma: Kuopio – 18. toukokuuta</li>
+        <li>7. tapahtuma: Oulu – 24. toukokuuta</li>
+        <li>8. tapahtuma: Rovaniemi – 26. toukokuuta</li>
       </ul>
     </div>
   )
