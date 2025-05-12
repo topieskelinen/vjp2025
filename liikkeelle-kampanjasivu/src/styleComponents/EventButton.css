@@ -1,4 +1,5 @@
 .eventButton button {
+    border: none;
     display: flex;
     justify-content: center;
     justify-self: center;
@@ -11,14 +12,13 @@
     padding: 10px;
     color: #F6F6F6;
     border-radius: 10px;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
   }
 
 .eventButton button:hover {
     background-color: #d2146d;
     color: #F6F6F6;
     border: #2D2C2C 2px solid;
-    transition: all 0.1s ease;
     cursor: pointer;
     transform: scale(1.05); 
 }

@@ -17,6 +17,12 @@ body {
   font-size: 16px;
 }
 
+.HomePage, .EventPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .FrontPage {
   display: flex;
   justify-content: center;

@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     gap: 20px;
     width: auto;
 }
@@ -27,13 +28,13 @@
     align-items: center;
   }
 
-  .sponsorlogos {
+.sponsorlogos {
     display: flex;
     flex-direction: row; 
     gap: 20px; 
   }
   
-  .sponsorlogos img {
+.sponsorlogos img {
     margin-bottom: 10px;
     height: auto;
     width: 300px;
