@@ -8,6 +8,7 @@ import './styleComponents/EmblaCarousel.css'
 import './styleComponents/EventItem.css'
 import './styleComponents/Navigation.css'
 import './styleComponents/EventButton.css'
+import './styleComponents/TourMap.css'; 
 
 
 import Header from './components/Header'
