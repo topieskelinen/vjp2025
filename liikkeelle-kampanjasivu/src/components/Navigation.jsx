@@ -44,7 +44,7 @@ export default function Navigation() {
                     {isDropdownOpen && (
                         <div className="dropdownMenu">
                             <button onClick={() => handleNavigation('/')}>Etusivu</button>
-                            <button onClick={() => handleNavigation('/event-page')}>Liikuntakiertue</button>
+                            <button onClick={() => handleNavigation('/tapahtuma')}>Liikuntakiertue</button>
                             <button onClick={() => handleNavigation('/panda-quiz')}>Panda-visa</button>
                         </div>
                     )}

@@ -143,7 +143,6 @@
         gap: 40px;
         width: 95%;
         flex-direction: column;
-        
     }
 
     .eventItem img {
@@ -154,6 +153,10 @@
     .sponsorlogos img {
         width: 400px;
       
+    }
+
+    .event {
+        padding-left: 50px;
     }
 }
 
