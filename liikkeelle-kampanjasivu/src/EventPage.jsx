@@ -1,5 +1,5 @@
 import Navigation from "./components/Navigation";
-import Header from './components/header'
+import Header from './components/Header'
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import EventItem from './components/EventItem'
