@@ -40,6 +40,8 @@ export default function Footer() {
                         <h2>Yhteystiedot</h2>
                         <p>Sähköposti: liikkeelle@liikkeelle.fi</p>
                         <p>Puhelinnumero: +358 50 1234567</p>
+                        <p>Maarintie 8, Aalto University</p>
+                        <p>02150, Espoo</p>
                         <button onClick={closeModal}>Close</button>
                     </div>
                 </div>

@@ -81,3 +81,18 @@
         width: 90vw;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .eventButton {
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .textbox button {
+        height: 500px;
+    }
+
+    .eventButton h2 {
+        font-size: 50px;
+    }
+}

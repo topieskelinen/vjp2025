@@ -115,7 +115,10 @@
         width: auto;
         height: 40px;
     }
-}
+
+    .dropdownMenu {
+        margin-top: 12px;
+}}
 
 @media screen and (min-width: 2000px) {
     .navTitle {
@@ -136,6 +139,7 @@
     .dropdownMenu {
         width: 300px; 
         padding: 15px; 
+        margin-top: 50px;
     }
 
     .dropdownMenu button {
@@ -166,6 +170,7 @@
     .dropdownMenu {
         width: 400px; 
         padding: 20px; 
+        margin-top: 80px;
     }
 
     .dropdownMenu button {
