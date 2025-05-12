@@ -124,6 +124,8 @@
 
     .navigation button {
         font-size: 33px;
+        border-radius: 10px;
+        padding: 20px 40px;
     }
 
     .pandaNavPic {

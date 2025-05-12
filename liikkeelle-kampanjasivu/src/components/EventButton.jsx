@@ -5,7 +5,7 @@ export default function EventButton() {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate('/event-page');
+        navigate('/tapahtuma');
         
         window.scrollTo({
             top: 0,
