@@ -8,7 +8,6 @@ import TourMap from './components/TourMap';
 export default function EventPage() {
     return (
         <div className="EventPage">
-            <Navigation />
             <div className="TitleBox">
                 <Header />
             </div>

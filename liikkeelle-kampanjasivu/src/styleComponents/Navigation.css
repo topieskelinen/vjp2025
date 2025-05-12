@@ -9,10 +9,10 @@
     background-color: #EC1B7E;
     color: #E3FCEF;
     box-shadow: 0 -6px 10px 5px black;
-    position: fixed;
+    position: sticky;
     top: 0; 
     left: 0;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .navCont {

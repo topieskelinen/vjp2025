@@ -9,11 +9,13 @@ import './styleComponents/EventItem.css'
 import './styleComponents/Navigation.css'
 import './styleComponents/EventButton.css'
 import './styleComponents/TourMap.css'
+import './styleComponents/Quiz.css'
 
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import HomePage from './HomePage'
 import EventPage from './EventPage'
+import QuizPage from './QuizPage';
 
 function App() {
 
@@ -24,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/tapahtuma" element={<EventPage />} />
+          <Route path="/panda-quiz" element={<QuizPage />} />
         </Routes>
         <Footer />
       </div>
