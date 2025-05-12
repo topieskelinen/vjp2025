@@ -12,7 +12,7 @@ const tourStops = [
     { city: "Turku", date: "10. toukokuuta", lat: 60.4518, lng: 22.2666 },
     { city: "Tampere", date: "12. toukokuuta", lat: 61.4978, lng: 23.7610 },
     { city: "Jyväskylä", date: "16. toukokuuta", lat: 62.2415, lng: 25.7209 },
-    { city: "Kuopio", date: "28. toukokuuta", lat: 62.8924, lng: 27.6770 },
+    { city: "Kuopio", date: "18. toukokuuta", lat: 62.8924, lng: 27.6770 },
     { city: "Oulu", date: "24. toukokuuta", lat: 65.0121, lng: 25.4651 },
     { city: "Rovaniemi", date: "26. toukokuuta", lat: 66.5039, lng: 25.7294 },
 ];
