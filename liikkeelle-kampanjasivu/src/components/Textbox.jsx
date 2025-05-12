@@ -11,7 +11,7 @@ export default function Textbox(props) {
 
   return (
     <div className={`textbox fade-in ${showTips ? "textbox-expanded" : ""}`}>
-      <h4 className="textbox_text">
+      <div className="textbox_text">
         {isString && splitText.length === 2 ? (
           <>
             <span className="textbox_inline">
@@ -28,7 +28,7 @@ export default function Textbox(props) {
         ) : (
           props.teksti
         )}
-      </h4>
+      </div>
 
       {showTips && isString && splitText.length === 2 && <TipsBox />}
     </div>
