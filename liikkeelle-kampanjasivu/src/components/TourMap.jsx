@@ -19,9 +19,13 @@ const tourStops = [
 
 export default function TourMap() {
   return (
-
-    <div style={{ height: "400px", width: "100%", marginBottom: "30px", marginTop: "30px"}}>
-      <MapContainer center={[62.0, 25.0]} zoom={6} scrollWheelZoom={false} style={{ height: "100%", width: "100%" }}>
+    <div className="tour-map-container">
+      <MapContainer 
+        center={[62.0, 25.0]} 
+        zoom={6} 
+        scrollWheelZoom={false} 
+        className="tour-map"
+      >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -34,6 +38,5 @@ export default function TourMap() {
         ))}
       </MapContainer>
     </div>
-
   );
 }

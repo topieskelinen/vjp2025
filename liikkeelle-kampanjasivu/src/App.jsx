@@ -8,9 +8,10 @@ import './styleComponents/EmblaCarousel.css'
 import './styleComponents/EventItem.css'
 import './styleComponents/Navigation.css'
 import './styleComponents/EventButton.css'
+import './styleComponents/TourMap.css'; 
 
 
-import Header from './components/Header'
+import Header from './components/header';
 import Textbox from './components/Textbox'
 import Footer from './components/Footer'
 import PandaQuizButton from './components/PandaQuizButton'
@@ -28,7 +29,6 @@ function App() {
       <div className="FrontPage">
         <Navigation />
         <Routes>
-          {/* Define the routes */}
           <Route
             path="/"
             element={
@@ -70,7 +70,7 @@ function App() {
               </div>
             }
           />
-          <Route path="/event-page" element={<EventPage />} />
+          <Route path="/tapahtuma" element={<EventPage />} />
         </Routes>
         <Footer />
       </div>
