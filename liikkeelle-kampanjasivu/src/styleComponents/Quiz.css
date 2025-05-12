@@ -61,3 +61,10 @@
         padding: 20px;
     }
 }
+
+@media screen and (min-width: 2000px) {
+    .other-button, .answer-button {
+        font-size: 2rem;
+        padding: 25px;
+    }
+}

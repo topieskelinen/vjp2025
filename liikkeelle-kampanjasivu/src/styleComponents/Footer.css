@@ -137,12 +137,16 @@
         width: auto
     }
 
+    .contact_info button {
+        font-size: 18px;
+    }
+
     .modal-content h2 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .modal-content p {
-        font-size: 46px;
+        font-size: 32px;
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -175,6 +179,7 @@
     .contact_info button {
         border-radius: 10px;
         padding: 20px 40px;
+        font-size: 30px;
     }
 
     .modal-content {
@@ -208,6 +213,10 @@
         margin-right: 250px;
         gap: 50px;
         padding-bottom: 10px;
+    }
+
+    .contact_info button {
+        font-size: 40px;
     }
 
     .contactText {

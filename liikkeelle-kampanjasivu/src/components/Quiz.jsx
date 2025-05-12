@@ -64,8 +64,6 @@ function Quiz() {
         <div>
           <h2 className="result">Olet {result}!</h2>
             <p>{pandaTypes[result].description}</p>
-            {/* Voi lisätä myöhemmin jos aikaa */}
-            {/* <img src={pandaTypes[result].image} alt={result} /> */}
             <div className="buttons">
                 <button className="other-button" onClick={handleRestart}>Uudestaan!</button>
                 <button className="other-button" onClick={() => window.location.href = "/"}>Etusivulle</button>
