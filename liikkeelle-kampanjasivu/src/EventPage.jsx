@@ -1,11 +1,3 @@
-import './styleComponents/Textbox.css'
-import './styleComponents/Header.css'
-import './styleComponents/Footer.css'
-import './styleComponents/PandaQuizButton.css'
-import './styleComponents/EmblaCarousel.css'
-import './styleComponents/EventItem.css'
-import './styleComponents/Navigation.css'
-
 import Navigation from "./components/Navigation";
 import Header from './components/header'
 import Textbox from './components/Textbox'

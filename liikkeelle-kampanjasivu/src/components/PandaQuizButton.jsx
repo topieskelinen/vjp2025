@@ -19,7 +19,7 @@ export default function PandaQuizButton() {
 
         <div className="pandaQuizButton fade-in">
             <button className="pandaQuizButton" onClick= {handleClick}>
-                <h2 className="buttonText">Tee panda quiz! – Selvitä millainen panda olet</h2>
+                <h2 className="buttonText">Tee panda quiz! – Selvitä millainen panda olet</h2>
                 <h4 className="buttonText">Testaa lapsesi liikuntatottumuksia rennolla visalla ja vastaanota käytännön vinkkejä liikunnan lisäämiseen!</h4>
             </button>
         </div>
