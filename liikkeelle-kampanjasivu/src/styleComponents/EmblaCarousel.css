@@ -8,6 +8,10 @@
   position: relative;
 }
 
+.embla:hover {
+  cursor: grab;
+}
+
 .embla__container {
   display: flex;
   flex-direction: row;

@@ -66,8 +66,10 @@ function Quiz() {
             <p>{pandaTypes[result].description}</p>
             {/* Voi lisätä myöhemmin jos aikaa */}
             {/* <img src={pandaTypes[result].image} alt={result} /> */}
-            <button className="other-button" onClick={handleRestart}>Uudestaan!</button>
-            <button className="other-button" onClick={() => window.location.href = "/"}>Etusivulle</button>
+            <div className="buttons">
+                <button className="other-button" onClick={handleRestart}>Uudestaan!</button>
+                <button className="other-button" onClick={() => window.location.href = "/"}>Etusivulle</button>
+            </div>
         </div>
         
       )}

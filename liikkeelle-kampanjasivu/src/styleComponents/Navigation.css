@@ -61,13 +61,12 @@
     cursor: pointer;
     color: #2D2C2C;
     font-size: 14px;
+    transition: all 0.15s ease-in-out;
 }
 
 .navigation button:hover {
-    background-color: #cccbcb;
-    color: #EC1B7E;
+    opacity: .8;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 
 .dropdownMenu {

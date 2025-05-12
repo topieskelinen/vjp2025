@@ -10,14 +10,13 @@
     height: auto;
     color: #F6F6F6;
     border-radius: 10px;
-    transition: transform 0.3s ease;
+    transition: all 0.2s ease-in-out;
   }
 
 .pandaQuizButton button:hover {
     background-color: #d2146d;
     color: #F6F6F6;
     border: #2D2C2C 2px solid;
-    transition: all 0.1s ease;
     cursor: pointer;
     transform: scale(1.05); 
 }

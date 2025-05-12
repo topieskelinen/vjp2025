@@ -1,5 +1,6 @@
 .QuizPage {
     width: 70vw;
+    min-height: 100vh;
 }
 
 .quiz-container {
@@ -20,23 +21,29 @@
     gap: 10px;
 }
 
-.answer-button {
-    background-color: #74E8AA;
-    color: #000;
+.answer-button, .other-button {
     border: none;
+    border-radius: 10px;
     padding: 10px;
     opacity: 1;
     transition: opacity 0.3s ease;
 }
 
+.answer-button {
+    background-color: #74E8AA;
+    color: #000;
+}
+
 .other-button {
     background-color: #EC1B7E;
     color: #E3FCEF;
-    border: none;
-    padding: 10px;
     margin-right: 10px;
-    opacity: 1;
-    transition: opacity 0.3s ease;
+}
+
+.buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .answer-button:hover, .other-button:hover {
