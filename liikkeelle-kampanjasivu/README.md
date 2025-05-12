@@ -10,6 +10,7 @@ Hyödynsimme tekoälyä tehtävänannossaa pitkälti assarrin tavoin. Esimerkiks
 ##Työtunnit 
 
 Nuutti:
+Reilu 15 tuntia, joka oli pääosin sivustojen rakentamista. Vähän mukana myös UI suunnittelussa ja muussa vastaavassa. 
 
 Rosa: 
 Tosi vaikee arvioida kun tein niin pitkällä aikavälillä ja pikkupätkissä, ehkä noin 10h.
